@@ -1,0 +1,40 @@
+[30-Apr-2024 07:33:58 Europe/London] Default exception handler: Your session has most likely timed out. Please log in again. Debug: 
+Error code: invalidsesskey
+* line 85 of /lib/sessionlib.php: moodle_exception thrown
+* line 33 of /auth/oauth2/login.php: call to require_sesskey()
+
+[30-Apr-2024 07:33:58 Europe/London] PHP Notice:  Trying to get property 'roleid' of non-object in /home/tnbz0j0otj3h/public_html/acca/theme/radiant/layout/columns.php on line 195
+[30-Apr-2024 07:33:58 Europe/London] PHP Notice:  Undefined property: stdClass::$course in /home/tnbz0j0otj3h/public_html/acca/local/acca/lib.php on line 31
+[30-Apr-2024 07:33:58 Europe/London] PHP Notice:  Trying to get property 'roleid' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/lib.php on line 178
+[30-Apr-2024 07:33:58 Europe/London] PHP Notice:  Trying to get property 'roleid' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/lib.php on line 178
+[30-Apr-2024 07:33:58 Europe/London] PHP Notice:  Trying to get property 'roleid' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/lib.php on line 178
+[30-Apr-2024 07:33:58 Europe/London] PHP Notice:  Trying to get property 'roleid' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/lib.php on line 178
+[30-Apr-2024 07:33:58 Europe/London] PHP Notice:  Trying to get property 'roleid' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/lib.php on line 178
+[30-Apr-2024 07:33:58 Europe/London] PHP Notice:  Trying to get property 'roleid' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/lib.php on line 178
+[30-Apr-2024 07:33:58 Europe/London] PHP Notice:  Undefined property: stdClass::$firstname in /home/tnbz0j0otj3h/public_html/acca/theme/radiant/classes/output/core_renderer.php on line 47
+[30-Apr-2024 07:33:58 Europe/London] PHP Notice:  Undefined property: stdClass::$lastname in /home/tnbz0j0otj3h/public_html/acca/theme/radiant/classes/output/core_renderer.php on line 47
+[30-Apr-2024 07:33:58 Europe/London] PHP Notice:  Undefined property: stdClass::$email in /home/tnbz0j0otj3h/public_html/acca/theme/radiant/classes/output/core_renderer.php on line 51
+[30-Apr-2024 07:33:58 Europe/London] PHP Notice:  Undefined property: stdClass::$phone1 in /home/tnbz0j0otj3h/public_html/acca/theme/radiant/classes/output/core_renderer.php on line 55
+[30-Apr-2024 07:34:32 Europe/London] Default exception handler: Could not upgrade OAuth 2 token. HTTP status for remote endpoint: 400 Debug: {
+  "error": "invalid_grant",
+  "error_description": "Bad Request"
+}
+Error code: oauth2upgradetokenerror
+* line 580 of /lib/oauthlib.php: moodle_exception thrown
+* line 254 of /lib/classes/oauth2/client.php: call to oauth2_client->upgrade_token()
+* line 479 of /lib/oauthlib.php: call to core\oauth2\client->upgrade_token()
+* line 279 of /lib/classes/oauth2/client.php: call to oauth2_client->is_logged_in()
+* line 50 of /auth/oauth2/login.php: call to core\oauth2\client->is_logged_in()
+
+[30-Apr-2024 07:34:32 Europe/London] PHP Notice:  Trying to get property 'roleid' of non-object in /home/tnbz0j0otj3h/public_html/acca/theme/radiant/layout/columns.php on line 195
+[30-Apr-2024 07:34:32 Europe/London] PHP Notice:  Undefined property: stdClass::$course in /home/tnbz0j0otj3h/public_html/acca/local/acca/lib.php on line 31
+[30-Apr-2024 07:34:32 Europe/London] PHP Notice:  Trying to get property 'roleid' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/lib.php on line 178
+[30-Apr-2024 07:34:32 Europe/London] PHP Notice:  Trying to get property 'roleid' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/lib.php on line 178
+[30-Apr-2024 07:34:32 Europe/London] PHP Notice:  Trying to get property 'roleid' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/lib.php on line 178
+[30-Apr-2024 07:34:32 Europe/London] PHP Notice:  Trying to get property 'roleid' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/lib.php on line 178
+[30-Apr-2024 07:34:32 Europe/London] PHP Notice:  Trying to get property 'roleid' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/lib.php on line 178
+[30-Apr-2024 07:34:32 Europe/London] PHP Notice:  Trying to get property 'roleid' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/lib.php on line 178
+[30-Apr-2024 07:34:32 Europe/London] PHP Notice:  Undefined property: stdClass::$firstname in /home/tnbz0j0otj3h/public_html/acca/theme/radiant/classes/output/core_renderer.php on line 47
+[30-Apr-2024 07:34:32 Europe/London] PHP Notice:  Undefined property: stdClass::$lastname in /home/tnbz0j0otj3h/public_html/acca/theme/radiant/classes/output/core_renderer.php on line 47
+[30-Apr-2024 07:34:32 Europe/London] PHP Notice:  Undefined property: stdClass::$email in /home/tnbz0j0otj3h/public_html/acca/theme/radiant/classes/output/core_renderer.php on line 51
+[30-Apr-2024 07:34:32 Europe/London] PHP Notice:  Undefined property: stdClass::$phone1 in /home/tnbz0j0otj3h/public_html/acca/theme/radiant/classes/output/core_renderer.php on line 55

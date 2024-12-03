@@ -1,0 +1,18 @@
+        <div style="display: flex; justify-content: right !important;"><a href="{{config.wwwroot}}/blocks/exam_tracker/schedule.php">Edit Exam Tracker →</a></div>
+        <div style="display:flex;">
+            <div>
+                <a href="{{config.wwwroot}}/blocks/exam_tracker/schedule.php">
+                    <button type="button" class="btn btn-primary" {{disabled}}>Schedule Your Exam</button>
+                </a>
+            </div>
+            <div >
+                <div>
+                    <label> Month</label>
+                    <input type="text" value="{{remainingMonths}}" id="month " {{disabled}}>
+                </div>
+                <div>
+                    <label> Days</label>
+                    <input type="text"  value="{{remainingDays}}" id="days" {{disabled}}>
+                </div>
+            </div>
+        </div>

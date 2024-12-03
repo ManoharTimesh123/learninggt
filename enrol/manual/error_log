@@ -1,0 +1,45 @@
+[09-May-2024 07:08:45 Europe/London] PHP Notice:  Undefined property: stdClass::$access_token in /home/tnbz0j0otj3h/public_html/acca/message/output/msgraph/message_output_msgraph.php on line 322
+[09-May-2024 07:08:46 Europe/London] Debugging: Error calling message processor msgraph in 
+* line 507 of /lib/classes/message/manager.php: call to debugging()
+* line 382 of /lib/classes/message/manager.php: call to core\message\manager::call_processors()
+* line 349 of /lib/classes/message/manager.php: call to core\message\manager::send_message_to_processors()
+* line 341 of /lib/messagelib.php: call to core\message\manager::send_message()
+* line 162 of /enrol/notificationeabc/lib.php: call to message_send()
+* line 186 of /enrol/notificationeabc/classes/observer.php: call to enrol_notificationeabc_plugin->enviarmail()
+* line ? of unknownfile: call to enrol_notificationeabc_observer::user_enroled()
+* line 155 of /lib/classes/event/manager.php: call to call_user_func()
+* line 75 of /lib/classes/event/manager.php: call to core\event\manager::process_buffers()
+* line 853 of /lib/classes/event/base.php: call to core\event\manager::dispatch()
+* line 2127 of /lib/enrollib.php: call to core\event\base->trigger()
+* line 166 of /enrol/manual/ajax.php: call to enrol_plugin->enrol_user()
+
+[09-May-2024 07:08:55 Europe/London] PHP Notice:  Undefined property: stdClass::$access_token in /home/tnbz0j0otj3h/public_html/acca/message/output/msgraph/message_output_msgraph.php on line 322
+[09-May-2024 07:08:55 Europe/London] Debugging: Error calling message processor msgraph in 
+* line 507 of /lib/classes/message/manager.php: call to debugging()
+* line 382 of /lib/classes/message/manager.php: call to core\message\manager::call_processors()
+* line 349 of /lib/classes/message/manager.php: call to core\message\manager::send_message_to_processors()
+* line 341 of /lib/messagelib.php: call to core\message\manager::send_message()
+* line 162 of /enrol/notificationeabc/lib.php: call to message_send()
+* line 186 of /enrol/notificationeabc/classes/observer.php: call to enrol_notificationeabc_plugin->enviarmail()
+* line ? of unknownfile: call to enrol_notificationeabc_observer::user_enroled()
+* line 155 of /lib/classes/event/manager.php: call to call_user_func()
+* line 75 of /lib/classes/event/manager.php: call to core\event\manager::process_buffers()
+* line 853 of /lib/classes/event/base.php: call to core\event\manager::dispatch()
+* line 2127 of /lib/enrollib.php: call to core\event\base->trigger()
+* line 166 of /enrol/manual/ajax.php: call to enrol_plugin->enrol_user()
+
+[09-May-2024 07:09:03 Europe/London] PHP Notice:  Undefined property: stdClass::$access_token in /home/tnbz0j0otj3h/public_html/acca/message/output/msgraph/message_output_msgraph.php on line 322
+[09-May-2024 07:09:03 Europe/London] Debugging: Error calling message processor msgraph in 
+* line 507 of /lib/classes/message/manager.php: call to debugging()
+* line 382 of /lib/classes/message/manager.php: call to core\message\manager::call_processors()
+* line 349 of /lib/classes/message/manager.php: call to core\message\manager::send_message_to_processors()
+* line 341 of /lib/messagelib.php: call to core\message\manager::send_message()
+* line 162 of /enrol/notificationeabc/lib.php: call to message_send()
+* line 186 of /enrol/notificationeabc/classes/observer.php: call to enrol_notificationeabc_plugin->enviarmail()
+* line ? of unknownfile: call to enrol_notificationeabc_observer::user_enroled()
+* line 155 of /lib/classes/event/manager.php: call to call_user_func()
+* line 75 of /lib/classes/event/manager.php: call to core\event\manager::process_buffers()
+* line 853 of /lib/classes/event/base.php: call to core\event\manager::dispatch()
+* line 2127 of /lib/enrollib.php: call to core\event\base->trigger()
+* line 166 of /enrol/manual/ajax.php: call to enrol_plugin->enrol_user()
+

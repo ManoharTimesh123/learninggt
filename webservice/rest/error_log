@@ -1,0 +1,422 @@
+[29-Apr-2024 08:13:40 Europe/London] Debugging: The server died because the web services or the REST protocol are not enable in 
+* line 39 of /webservice/rest/server.php: call to debugging()
+
+[29-Apr-2024 08:16:28 Europe/London] Debugging: The server died because the web services or the REST protocol are not enable in 
+* line 39 of /webservice/rest/server.php: call to debugging()
+
+[29-Apr-2024 08:16:51 Europe/London] Debugging: The server died because the web services or the REST protocol are not enable in 
+* line 39 of /webservice/rest/server.php: call to debugging()
+
+[29-Apr-2024 08:17:30 Europe/London] Debugging: The server died because the web services or the REST protocol are not enable in 
+* line 39 of /webservice/rest/server.php: call to debugging()
+
+[29-Apr-2024 08:17:45 Europe/London] Debugging: The server died because the web services or the REST protocol are not enable in 
+* line 39 of /webservice/rest/server.php: call to debugging()
+
+[29-Apr-2024 08:17:57 Europe/London] Debugging: The server died because the web services or the REST protocol are not enable in 
+* line 39 of /webservice/rest/server.php: call to debugging()
+
+[29-Apr-2024 08:19:25 Europe/London] Debugging: The server died because the web services or the REST protocol are not enable in 
+* line 39 of /webservice/rest/server.php: call to debugging()
+
+[29-Apr-2024 08:19:27 Europe/London] Debugging: The server died because the web services or the REST protocol are not enable in 
+* line 39 of /webservice/rest/server.php: call to debugging()
+
+[29-Apr-2024 08:19:28 Europe/London] Debugging: The server died because the web services or the REST protocol are not enable in 
+* line 39 of /webservice/rest/server.php: call to debugging()
+
+[29-Apr-2024 08:19:29 Europe/London] Debugging: The server died because the web services or the REST protocol are not enable in 
+* line 39 of /webservice/rest/server.php: call to debugging()
+
+[29-Apr-2024 08:19:30 Europe/London] Debugging: The server died because the web services or the REST protocol are not enable in 
+* line 39 of /webservice/rest/server.php: call to debugging()
+
+[29-Apr-2024 08:20:30 Europe/London] Debugging: The server died because the web services or the REST protocol are not enable in 
+* line 39 of /webservice/rest/server.php: call to debugging()
+
+[29-Apr-2024 08:20:33 Europe/London] Debugging: The server died because the web services or the REST protocol are not enable in 
+* line 39 of /webservice/rest/server.php: call to debugging()
+
+[29-Apr-2024 08:21:36 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 08:21:47 Europe/London] REST exception handler: Can't find data record in database table external_functions. Debug: SELECT * FROM {external_functions} WHERE name = ?
+[array (
+  0 => 'email_verification',
+)]
+Error code: invalidrecord
+* line 1654 of /lib/dml/moodle_database.php: dml_missing_record_exception thrown
+* line 1630 of /lib/dml/moodle_database.php: call to moodle_database->get_record_select()
+* line 73 of /lib/externallib.php: call to moodle_database->get_record()
+* line 1421 of /webservice/lib.php: call to external_api::external_function_info()
+* line 1327 of /webservice/lib.php: call to webservice_base_server->load_function_info()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 08:23:16 Europe/London] PHP Notice:  Trying to get property 'id' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 699
+[29-Apr-2024 08:23:16 Europe/London] PHP Notice:  Trying to get property 'username' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 700
+[29-Apr-2024 08:23:16 Europe/London] PHP Notice:  Trying to get property 'firstname' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 701
+[29-Apr-2024 08:23:16 Europe/London] PHP Notice:  Trying to get property 'email' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 702
+[29-Apr-2024 08:23:16 Europe/London] PHP Notice:  Trying to get property 'deleted' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 703
+[29-Apr-2024 08:23:16 Europe/London] PHP Notice:  Trying to get property 'suspended' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 704
+[29-Apr-2024 08:23:16 Europe/London] PHP Notice:  Trying to get property 'institution' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 705
+[29-Apr-2024 08:23:16 Europe/London] PHP Notice:  Trying to get property 'department' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 706
+[29-Apr-2024 08:23:16 Europe/London] PHP Notice:  Trying to get property 'phone1' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 707
+[29-Apr-2024 08:23:16 Europe/London] PHP Notice:  Trying to get property 'country' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 708
+[29-Apr-2024 08:23:16 Europe/London] PHP Notice:  Trying to get property 'city' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 709
+[29-Apr-2024 08:23:16 Europe/London] PHP Notice:  Trying to get property 'address' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 710
+[29-Apr-2024 10:53:36 Europe/London] REST exception handler: Can't find data record in database table external_functions. Debug: SELECT * FROM {external_functions} WHERE name = ?
+[array (
+  0 => 'user_login_and_registration',
+)]
+Error code: invalidrecord
+* line 1654 of /lib/dml/moodle_database.php: dml_missing_record_exception thrown
+* line 1630 of /lib/dml/moodle_database.php: call to moodle_database->get_record_select()
+* line 73 of /lib/externallib.php: call to moodle_database->get_record()
+* line 1421 of /webservice/lib.php: call to external_api::external_function_info()
+* line 1327 of /webservice/lib.php: call to webservice_base_server->load_function_info()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 10:53:51 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 993
+[29-Apr-2024 10:53:51 Europe/London] REST exception handler: Access control exception Debug: Access to the function local_user_login_and_registration() is not allowed.
+                     There could be multiple reasons for this:
+                     1. The service linked to the user token does not contain the function.
+                     2. The service is user-restricted and the user is not listed.
+                     3. The service is IP-restricted and the user IP is not listed.
+                     4. The service is time-restricted and the time has expired.
+                     5. The token is time-restricted and the time has expired.
+                     6. The service requires a specific capability which the user does not have.
+                     7. The function is called with username/password (no user token is sent)
+                     and none of the services has the function to allow the user.
+                     These settings can be found in Administration > Site administration
+                     > Server > Web services > External services and Manage tokens.
+Error code: accessexception
+* line 1472 of /webservice/lib.php: webservice_access_exception thrown
+* line 1327 of /webservice/lib.php: call to webservice_base_server->load_function_info()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 10:59:43 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 993
+[29-Apr-2024 10:59:43 Europe/London] REST exception handler: Invalid parameter value detected Debug: Missing required key in single structure: firstname
+Error code: invalidparameter
+* line 350 of /lib/externallib.php: invalid_parameter_exception thrown
+* line 1496 of /webservice/lib.php: call to external_api::validate_parameters()
+* line 1363 of /webservice/lib.php: call to webservice_base_server->execute()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 11:00:12 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 993
+[29-Apr-2024 11:00:12 Europe/London] REST exception handler: Invalid parameter value detected Debug: Missing required key in single structure: lastname
+Error code: invalidparameter
+* line 350 of /lib/externallib.php: invalid_parameter_exception thrown
+* line 1496 of /webservice/lib.php: call to external_api::validate_parameters()
+* line 1363 of /webservice/lib.php: call to webservice_base_server->execute()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 11:00:26 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 993
+[29-Apr-2024 11:00:26 Europe/London] REST exception handler: Invalid parameter value detected Debug: Missing required key in single structure: firstname
+Error code: invalidparameter
+* line 350 of /lib/externallib.php: invalid_parameter_exception thrown
+* line 888 of /local/participant/ws/user.php: call to external_api::validate_parameters()
+* line 1517 of /webservice/lib.php: call to local_participant_ws_user::user_login_and_registration()
+* line 1363 of /webservice/lib.php: call to webservice_base_server->execute()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 11:00:37 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 993
+[29-Apr-2024 11:00:37 Europe/London] REST exception handler: Invalid parameter value detected Debug: Missing required key in single structure: firstname
+Error code: invalidparameter
+* line 350 of /lib/externallib.php: invalid_parameter_exception thrown
+* line 888 of /local/participant/ws/user.php: call to external_api::validate_parameters()
+* line 1517 of /webservice/lib.php: call to local_participant_ws_user::user_login_and_registration()
+* line 1363 of /webservice/lib.php: call to webservice_base_server->execute()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 11:01:54 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 994
+[29-Apr-2024 11:02:08 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 994
+[29-Apr-2024 11:02:08 Europe/London] REST exception handler: Invalid parameter value detected Debug: Missing required key in single structure: firstname
+Error code: invalidparameter
+* line 350 of /lib/externallib.php: invalid_parameter_exception thrown
+* line 888 of /local/participant/ws/user.php: call to external_api::validate_parameters()
+* line 1517 of /webservice/lib.php: call to local_participant_ws_user::user_login_and_registration()
+* line 1363 of /webservice/lib.php: call to webservice_base_server->execute()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 11:02:32 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 994
+[29-Apr-2024 11:03:37 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 993
+[29-Apr-2024 11:04:09 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 993
+[29-Apr-2024 11:04:09 Europe/London] REST exception handler: error/<div>The password must have at least 1 special character(s) such as as *, -, or #.</div> Debug: 
+Error code: <div>The password must have at least 1 special character(s) such as as *, -, or #.</div>
+$a contents: 
+* line 67 of /user/lib.php: moodle_exception thrown
+* line 927 of /local/participant/ws/user.php: call to user_create_user()
+* line 1517 of /webservice/lib.php: call to local_participant_ws_user::user_login_and_registration()
+* line 1363 of /webservice/lib.php: call to webservice_base_server->execute()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 11:04:50 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 993
+[29-Apr-2024 11:15:14 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 994
+[29-Apr-2024 11:15:25 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 994
+[29-Apr-2024 11:17:08 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[29-Apr-2024 11:21:33 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[29-Apr-2024 11:23:04 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[29-Apr-2024 11:24:04 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[29-Apr-2024 11:24:21 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[29-Apr-2024 11:26:58 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 11:45:15 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 11:48:16 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 12:01:30 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 12:04:09 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 12:04:09 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 12:30:03 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 12:33:05 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 12:34:47 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[29-Apr-2024 12:41:01 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 12:46:05 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[29-Apr-2024 12:46:05 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[29-Apr-2024 12:46:05 Europe/London] REST exception handler: Invalid parameter value detected Debug: Missing required key in single structure: firstname
+Error code: invalidparameter
+* line 350 of /lib/externallib.php: invalid_parameter_exception thrown
+* line 1496 of /webservice/lib.php: call to external_api::validate_parameters()
+* line 1363 of /webservice/lib.php: call to webservice_base_server->execute()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 12:46:05 Europe/London] REST exception handler: Invalid parameter value detected Debug: Missing required key in single structure: firstname
+Error code: invalidparameter
+* line 350 of /lib/externallib.php: invalid_parameter_exception thrown
+* line 1496 of /webservice/lib.php: call to external_api::validate_parameters()
+* line 1363 of /webservice/lib.php: call to webservice_base_server->execute()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 12:52:47 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[29-Apr-2024 12:52:47 Europe/London] REST exception handler: Invalid parameter value detected Debug: Missing required key in single structure: firstname
+Error code: invalidparameter
+* line 350 of /lib/externallib.php: invalid_parameter_exception thrown
+* line 1496 of /webservice/lib.php: call to external_api::validate_parameters()
+* line 1363 of /webservice/lib.php: call to webservice_base_server->execute()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 12:58:09 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[29-Apr-2024 12:58:09 Europe/London] REST exception handler: Invalid parameter value detected Debug: Missing required key in single structure: firstname
+Error code: invalidparameter
+* line 350 of /lib/externallib.php: invalid_parameter_exception thrown
+* line 1496 of /webservice/lib.php: call to external_api::validate_parameters()
+* line 1363 of /webservice/lib.php: call to webservice_base_server->execute()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 13:00:55 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[29-Apr-2024 13:00:55 Europe/London] REST exception handler: Invalid parameter value detected Debug: Missing required key in single structure: firstname
+Error code: invalidparameter
+* line 350 of /lib/externallib.php: invalid_parameter_exception thrown
+* line 1496 of /webservice/lib.php: call to external_api::validate_parameters()
+* line 1363 of /webservice/lib.php: call to webservice_base_server->execute()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[29-Apr-2024 13:04:39 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[29-Apr-2024 13:07:00 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[29-Apr-2024 13:07:00 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[29-Apr-2024 13:08:23 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[29-Apr-2024 13:09:40 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[29-Apr-2024 13:13:21 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[29-Apr-2024 13:13:21 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[29-Apr-2024 13:14:20 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[29-Apr-2024 13:23:09 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[29-Apr-2024 13:32:46 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[29-Apr-2024 13:42:58 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[29-Apr-2024 14:40:06 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[30-Apr-2024 11:17:32 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[30-Apr-2024 11:20:04 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[30-Apr-2024 11:58:10 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[30-Apr-2024 12:00:23 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[30-Apr-2024 13:26:18 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[30-Apr-2024 13:57:32 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[30-Apr-2024 13:57:59 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[30-Apr-2024 14:00:06 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[30-Apr-2024 14:00:30 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[08-May-2024 21:26:17 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[08-May-2024 21:26:46 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[09-May-2024 08:51:43 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[09-May-2024 11:23:59 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[09-May-2024 11:27:51 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[09-May-2024 11:27:51 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[09-May-2024 11:29:24 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[09-May-2024 11:29:24 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[09-May-2024 11:38:29 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[09-May-2024 11:38:29 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[09-May-2024 11:42:27 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[09-May-2024 11:42:27 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[09-May-2024 11:44:07 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[09-May-2024 11:44:07 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[09-May-2024 11:47:22 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[09-May-2024 11:47:22 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[09-May-2024 11:56:27 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[09-May-2024 11:56:27 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[09-May-2024 12:00:33 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[09-May-2024 12:00:33 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[09-May-2024 12:01:16 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[09-May-2024 12:01:17 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[09-May-2024 12:02:55 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[09-May-2024 12:02:55 Europe/London] PHP Warning:  Use of undefined constant PARAM_OPTIONAL - assumed 'PARAM_OPTIONAL' (this will throw an Error in a future version of PHP) in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 996
+[13-May-2024 08:58:58 Europe/London] [client 103.203.255.4]  http://rwtlms.in/acca  Failed Login:  manohar  PostmanRuntime/7.37.3
+[13-May-2024 08:58:58 Europe/London] PHP Notice:  Trying to get property 'id' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 791
+[13-May-2024 08:58:58 Europe/London] PHP Notice:  Trying to get property 'username' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 792
+[13-May-2024 08:58:58 Europe/London] PHP Notice:  Trying to get property 'firstname' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 793
+[13-May-2024 08:58:58 Europe/London] PHP Notice:  Trying to get property 'email' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 794
+[13-May-2024 08:58:58 Europe/London] PHP Notice:  Trying to get property 'deleted' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 795
+[13-May-2024 08:58:58 Europe/London] PHP Notice:  Trying to get property 'suspended' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 796
+[13-May-2024 08:58:58 Europe/London] PHP Notice:  Trying to get property 'institution' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 797
+[13-May-2024 08:58:58 Europe/London] PHP Notice:  Trying to get property 'department' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 798
+[13-May-2024 08:58:58 Europe/London] PHP Notice:  Trying to get property 'phone1' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 799
+[13-May-2024 08:58:58 Europe/London] PHP Notice:  Trying to get property 'country' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 800
+[13-May-2024 08:58:58 Europe/London] PHP Notice:  Trying to get property 'city' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 801
+[13-May-2024 08:58:58 Europe/London] PHP Notice:  Trying to get property 'address' of non-object in /home/tnbz0j0otj3h/public_html/acca/local/participant/ws/user.php on line 802
+[13-May-2024 09:01:03 Europe/London] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - session is not active in /home/tnbz0j0otj3h/public_html/acca/lib/classes/session/manager.php on line 614
+[06-Jul-2024 18:35:53 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[06-Jul-2024 18:38:24 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[06-Jul-2024 18:38:41 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[06-Jul-2024 18:38:43 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[07-Jul-2024 18:56:52 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[03-Sep-2024 17:43:03 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[04-Sep-2024 05:43:17 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[04-Sep-2024 06:18:45 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[02-Nov-2024 05:55:33 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[02-Nov-2024 06:19:20 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+
+[03-Nov-2024 01:58:15 Europe/London] REST exception handler: Invalid token - token not found Debug: 
+Error code: invalidtoken
+* line 1173 of /webservice/lib.php: moodle_exception thrown
+* line 1055 of /webservice/lib.php: call to webservice_server->authenticate_by_token()
+* line 1324 of /webservice/lib.php: call to webservice_server->authenticate_user()
+* line 44 of /webservice/rest/server.php: call to webservice_base_server->run()
+

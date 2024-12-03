@@ -1,0 +1,6 @@
+[12-Mar-2024 10:20:23 Europe/London] Default exception handler: PDF document filetype cannot be accepted. Debug: 
+Error code: invalidfiletype
+* line 185 of /repository/upload/lib.php: moodle_exception thrown
+* line 63 of /repository/upload/lib.php: call to repository_upload->process_upload()
+* line 327 of /repository/repository_ajax.php: call to repository_upload->upload()
+
